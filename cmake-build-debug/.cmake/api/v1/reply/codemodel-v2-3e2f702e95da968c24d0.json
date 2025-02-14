@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Algoritmos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Algoritmos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Algoritmos-Debug-8bc692d0816d3e0837a2.json",
+					"name" : "Algoritmos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Insertion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Insertion-Debug-a625552027c098e1a1e0.json",
+					"name" : "Insertion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Merge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Merge-Debug-9da6b89080aa0fa4962c.json",
+					"name" : "Merge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Quick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Quick-Debug-e25e5256fa751c484ab5.json",
+					"name" : "Quick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Selection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Selection-Debug-9a8fbd75b3409ba03d29.json",
+					"name" : "Selection",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Estudos/Faculdade/Algoritmos/cmake-build-debug",
+		"source" : "E:/Estudos/Faculdade/Algoritmos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
