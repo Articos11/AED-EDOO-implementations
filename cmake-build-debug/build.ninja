@@ -205,6 +205,39 @@ build Quick.exe: CXX_EXECUTABLE_LINKER__Quick_Debug CMakeFiles/Quick.dir/quickSo
   TARGET_IMPLIB = libQuick.dll.a
   TARGET_PDB = Quick.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target listArray
+
+
+#############################################
+# Order-only phony target for listArray
+
+build cmake_object_order_depends_target_listArray: phony || CMakeFiles/listArray.dir
+
+build CMakeFiles/listArray.dir/listArray.cpp.obj: CXX_COMPILER__listArray_unscanned_Debug E$:/Estudos/Faculdade/Algoritmos/listArray.cpp || cmake_object_order_depends_target_listArray
+  DEP_FILE = CMakeFiles\listArray.dir\listArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\listArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\listArray.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target listArray
+
+
+#############################################
+# Link the executable listArray.exe
+
+build listArray.exe: CXX_EXECUTABLE_LINKER__listArray_Debug CMakeFiles/listArray.dir/listArray.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\listArray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = listArray.exe
+  TARGET_IMPLIB = liblistArray.dll.a
+  TARGET_PDB = listArray.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -241,6 +274,8 @@ build Quick: phony Quick.exe
 
 build Selection: phony Selection.exe
 
+build listArray: phony listArray.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -249,7 +284,7 @@ build Selection: phony Selection.exe
 #############################################
 # Folder: E:/Estudos/Faculdade/Algoritmos/cmake-build-debug
 
-build all: phony Algoritmos.exe Selection.exe Insertion.exe Merge.exe Quick.exe
+build all: phony Algoritmos.exe Selection.exe Insertion.exe Merge.exe Quick.exe listArray.exe
 
 # =============================================================================
 # Built-in targets
