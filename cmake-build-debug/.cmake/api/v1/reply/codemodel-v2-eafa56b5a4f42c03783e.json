@@ -20,7 +20,10 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -40,7 +43,10 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -49,42 +55,63 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Algoritmos::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Algoritmos-Debug-8bc692d0816d3e0837a2.json",
+					"jsonFile" : "target-Algoritmos-Debug-8e51b8b92d92a52a1abc.json",
 					"name" : "Algoritmos",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Insertion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Insertion-Debug-a625552027c098e1a1e0.json",
+					"jsonFile" : "target-Insertion-Debug-daebd3259e4bae941b54.json",
 					"name" : "Insertion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Merge::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Merge-Debug-9da6b89080aa0fa4962c.json",
+					"jsonFile" : "target-Merge-Debug-9ca3146e78acb8c57fd6.json",
 					"name" : "Merge",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Queue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue-Debug-50af2b94d297e158685f.json",
+					"name" : "Queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Quick::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Quick-Debug-e25e5256fa751c484ab5.json",
+					"jsonFile" : "target-Quick-Debug-3424f4e84d903e10a639.json",
 					"name" : "Quick",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Selection::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Selection-Debug-9a8fbd75b3409ba03d29.json",
+					"jsonFile" : "target-Selection-Debug-e7407f97771538b3df02.json",
 					"name" : "Selection",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack-Debug-67b5ec5a4c12a5cde541.json",
+					"name" : "Stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linkedList-Debug-023c1fbef59156cd552b.json",
+					"name" : "linkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "listArray::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-listArray-Debug-d5eba50a34120a52520b.json",
+					"jsonFile" : "target-listArray-Debug-e6fd0a48ee3c6fb5212d.json",
 					"name" : "listArray",
 					"projectIndex" : 0
 				}

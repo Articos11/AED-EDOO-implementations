@@ -55,6 +55,12 @@ build CMakeFiles/Algoritmos.dir/main.cpp.obj: CXX_COMPILER__Algoritmos_unscanned
   OBJECT_DIR = CMakeFiles\Algoritmos.dir
   OBJECT_FILE_DIR = CMakeFiles\Algoritmos.dir
 
+build CMakeFiles/Algoritmos.dir/queue.cpp.obj: CXX_COMPILER__Algoritmos_unscanned_Debug E$:/Estudos/Faculdade/Algoritmos/queue.cpp || cmake_object_order_depends_target_Algoritmos
+  DEP_FILE = CMakeFiles\Algoritmos.dir\queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Algoritmos.dir
+  OBJECT_FILE_DIR = CMakeFiles\Algoritmos.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Algoritmos
@@ -63,7 +69,7 @@ build CMakeFiles/Algoritmos.dir/main.cpp.obj: CXX_COMPILER__Algoritmos_unscanned
 #############################################
 # Link the executable Algoritmos.exe
 
-build Algoritmos.exe: CXX_EXECUTABLE_LINKER__Algoritmos_Debug CMakeFiles/Algoritmos.dir/main.cpp.obj
+build Algoritmos.exe: CXX_EXECUTABLE_LINKER__Algoritmos_Debug CMakeFiles/Algoritmos.dir/main.cpp.obj CMakeFiles/Algoritmos.dir/queue.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Algoritmos.dir
@@ -238,6 +244,105 @@ build listArray.exe: CXX_EXECUTABLE_LINKER__listArray_Debug CMakeFiles/listArray
   TARGET_IMPLIB = liblistArray.dll.a
   TARGET_PDB = listArray.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target linkedList
+
+
+#############################################
+# Order-only phony target for linkedList
+
+build cmake_object_order_depends_target_linkedList: phony || CMakeFiles/linkedList.dir
+
+build CMakeFiles/linkedList.dir/linkedList.cpp.obj: CXX_COMPILER__linkedList_unscanned_Debug E$:/Estudos/Faculdade/Algoritmos/linkedList.cpp || cmake_object_order_depends_target_linkedList
+  DEP_FILE = CMakeFiles\linkedList.dir\linkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedList.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linkedList
+
+
+#############################################
+# Link the executable linkedList.exe
+
+build linkedList.exe: CXX_EXECUTABLE_LINKER__linkedList_Debug CMakeFiles/linkedList.dir/linkedList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linkedList.exe
+  TARGET_IMPLIB = liblinkedList.dll.a
+  TARGET_PDB = linkedList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Order-only phony target for Stack
+
+build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
+
+build CMakeFiles/Stack.dir/stack.cpp.obj: CXX_COMPILER__Stack_unscanned_Debug E$:/Estudos/Faculdade/Algoritmos/stack.cpp || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles\Stack.dir\stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Link the executable Stack.exe
+
+build Stack.exe: CXX_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/stack.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Stack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Stack.exe
+  TARGET_IMPLIB = libStack.dll.a
+  TARGET_PDB = Stack.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Order-only phony target for Queue
+
+build cmake_object_order_depends_target_Queue: phony || CMakeFiles/Queue.dir
+
+build CMakeFiles/Queue.dir/queue.cpp.obj: CXX_COMPILER__Queue_unscanned_Debug E$:/Estudos/Faculdade/Algoritmos/queue.cpp || cmake_object_order_depends_target_Queue
+  DEP_FILE = CMakeFiles\Queue.dir\queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\Queue.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Link the executable Queue.exe
+
+build Queue.exe: CXX_EXECUTABLE_LINKER__Queue_Debug CMakeFiles/Queue.dir/queue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Queue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Queue.exe
+  TARGET_IMPLIB = libQueue.dll.a
+  TARGET_PDB = Queue.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -270,9 +375,15 @@ build Insertion: phony Insertion.exe
 
 build Merge: phony Merge.exe
 
+build Queue: phony Queue.exe
+
 build Quick: phony Quick.exe
 
 build Selection: phony Selection.exe
+
+build Stack: phony Stack.exe
+
+build linkedList: phony linkedList.exe
 
 build listArray: phony listArray.exe
 
@@ -284,7 +395,7 @@ build listArray: phony listArray.exe
 #############################################
 # Folder: E:/Estudos/Faculdade/Algoritmos/cmake-build-debug
 
-build all: phony Algoritmos.exe Selection.exe Insertion.exe Merge.exe Quick.exe listArray.exe
+build all: phony Algoritmos.exe Selection.exe Insertion.exe Merge.exe Quick.exe listArray.exe linkedList.exe Stack.exe Queue.exe
 
 # =============================================================================
 # Built-in targets
